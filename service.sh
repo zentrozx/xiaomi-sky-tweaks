@@ -20,7 +20,7 @@ done
 
 sleep 10
 
-echo 20 > /proc/sys/vm/swappiness
+sysctl vm.swappiness=20
 
 
 for POL in 0 6; do
